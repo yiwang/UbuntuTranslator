@@ -123,6 +123,7 @@ func main() {
 	}
 
 req:
+	isWord = false
 	if isWord {
 		// dict
 		url = dictBaseUrl + flag.Arg(0)
@@ -167,7 +168,7 @@ req:
 
 			return
 		} else {
-			fmt.Printf("dict 没有找到该词, 使用 Google 翻译\n")
+			//fmt.Printf("dict 没有找到该词, 使用 Google 翻译\n")
             isWord = false
             goto req
 		}

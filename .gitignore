@@ -1,0 +1,5 @@
+bin/*
+.*
+*.8
+!.gitignore
+
