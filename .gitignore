@@ -1,5 +1,7 @@
 bin/*
 .*
 *.8
+*.6
+*.out
 !.gitignore
 
